@@ -1,0 +1,114 @@
+html{background-color: black;}
+.App {
+  text-align: center;
+}
+header{color:white;}
+header h1{text-align: left; padding:30px 100px;
+margin:0; }
+header nav {
+ display: flex; gap: 40px; 
+ position:absolute;
+ right:100px;
+ top:30px;
+ }
+header nav a{color:white;
+ text-decoration: none;
+ }
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.swiper-pagination-fraction, 
+.swiper-pagination-custom, .swiper-horizontal > 
+.swiper-pagination-bullets, 
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, -30px);
+    
+}
+
+/* profile=============================================== */
+.profile{margin:300px 100px;}
+.profile h2{
+  color:white;
+text-align:left;
+font-size:144px;
+font-weight: 400;
+line-height: 0.9;
+margin-bottom:300px;
+}
+
+.profileImg{}
+.profileImg img{height: 800px;object-fit: cover;}
+
+.profiletxt{color:white; text-align: left; margin-top:50px;
+width: 800px; font-weight: 300; line-height: 1.6;}
+
+.img2{display: flex; margin-top:250px;}
+.img2 .profiletxt{margin-left:80px;  margin-top:0;}
+
+.img3{display: flex; margin-top:250px;}
+.img3 .profiletxt{margin-right:80px; margin-top:0;}
+
+
+/* signup==================================================== */
+.signup{margin:300px 100px;}
+.signup h2{
+  color:white;
+text-align:left;
+font-size:144px;
+font-weight: 400;
+line-height: 0.9;
+margin-bottom:300px;}
+
+.CA{border:1px solid white; padding:300px;}
+.CA p:nth-of-type(1){font-size: 40px; margin-bottom:100px;}
+.signup label{color:white;}
+.signup label input{color: white;}
+.signup .css-5h82ro-MuiInputBase-root-MuiInput-root::before{
+  border-bottom:2px solid white;
+}
+.signup .css-5h82ro-MuiInputBase-root-MuiInput-root::after{
+  border-bottom:2px solid white;
+}
+.signup .inputs{display: flex; flex-direction: column; width: 600px;
+gap:30px; margin:0 auto; }
+
+.signup button{width: 600px; border:none;padding:20px; margin-top:40px;
+border-radius: 10px; font-size:16px; background-color: #1F485B;
+color:white; font-weight: 600;
+}
+.signup p{color:white; text-align:left; width: 600px; 
+  margin:0 auto;
+margin-top:20px; font-size:15px;}
+.signup p span{color:#1F485B}
