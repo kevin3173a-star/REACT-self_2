@@ -37,9 +37,9 @@ function Slider() {
     <>
       <Swiper
         style={style}
-        spaceBetween={30}//간격
-        slidesPerView={2}//몇개씩 보여줄지
-        centeredSlides={true}//중앙 양쪽에 앞뒤 슬라이드 잘려서 나오게
+        spaceBetween={30}//간격 (Space between)
+        slidesPerView={2}//몇개씩 보여줄지 (Slides per view)
+        centeredSlides={true}//중앙 양쪽에 앞뒤 슬라이드 잘려서 나오게 (Centered) 
         pagination={{
           clickable: true,
         }}
